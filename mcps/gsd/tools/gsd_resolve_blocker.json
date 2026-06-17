@@ -1,0 +1,16 @@
+{
+  "name": "gsd_resolve_blocker",
+  "description": "Remove a resolved blocker from STATE.md",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "Blocker text to remove"
+      }
+    },
+    "required": [
+      "text"
+    ]
+  }
+}

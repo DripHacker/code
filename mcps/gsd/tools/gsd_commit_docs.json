@@ -1,0 +1,24 @@
+{
+  "name": "gsd_commit_docs",
+  "description": "Commit planning documentation files",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "message": {
+        "type": "string",
+        "description": "Commit message"
+      },
+      "files": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Files to commit"
+      }
+    },
+    "required": [
+      "message",
+      "files"
+    ]
+  }
+}

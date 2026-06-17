@@ -1,0 +1,34 @@
+{
+  "name": "gsd_record_metric",
+  "description": "Record execution metrics for a plan",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "phase": {
+        "type": "string",
+        "description": "Phase identifier (e.g., \"01\")"
+      },
+      "plan": {
+        "type": "string",
+        "description": "Plan identifier (e.g., \"02\")"
+      },
+      "duration": {
+        "type": "string",
+        "description": "Duration (e.g., \"5min\")"
+      },
+      "tasks": {
+        "type": "number",
+        "description": "Number of tasks completed"
+      },
+      "files": {
+        "type": "number",
+        "description": "Number of files modified"
+      }
+    },
+    "required": [
+      "phase",
+      "plan",
+      "duration"
+    ]
+  }
+}

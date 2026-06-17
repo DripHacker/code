@@ -1,0 +1,8 @@
+{
+  "name": "gsd_plan_status",
+  "description": "Get current GSD plan execution status",
+  "inputSchema": {
+    "type": "object",
+    "properties": {}
+  }
+}

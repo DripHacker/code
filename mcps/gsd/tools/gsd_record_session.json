@@ -1,0 +1,16 @@
+{
+  "name": "gsd_record_session",
+  "description": "Update session continuity info in STATE.md",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "stopped_at": {
+        "type": "string",
+        "description": "Description of where work stopped"
+      }
+    },
+    "required": [
+      "stopped_at"
+    ]
+  }
+}

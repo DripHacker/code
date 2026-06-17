@@ -1,0 +1,8 @@
+{
+  "name": "gsd_advance_plan",
+  "description": "Advance the current plan counter in STATE.md",
+  "inputSchema": {
+    "type": "object",
+    "properties": {}
+  }
+}
