@@ -7,8 +7,8 @@ export default defineConfig({
 	site: 'https://docs.modrinth.com',
 	integrations: [
 		starlight({
-			title: 'Modrinth Documentation',
-			favicon: '/favicon.ico',
+			title: 'Documentation',
+			favicon: '/favicon.svg',
 			editLink: {
 				baseUrl: 'https://github.com/modrinth/code/edit/main/apps/docs/',
 			},

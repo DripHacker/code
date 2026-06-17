@@ -19,9 +19,9 @@ const preloadedFonts = [
 ]
 
 const favicons = {
-	'(prefers-color-scheme:no-preference)': '/favicon-light.ico',
-	'(prefers-color-scheme:light)': '/favicon-light.ico',
-	'(prefers-color-scheme:dark)': '/favicon.ico',
+	'(prefers-color-scheme:no-preference)': '/favicon.svg',
+	'(prefers-color-scheme:light)': '/favicon.svg',
+	'(prefers-color-scheme:dark)': '/favicon.svg',
 }
 
 const PROD_MODRINTH_URL = 'https://modrinth.com'
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: 'en',
 			},
-			title: 'Modrinth',
+			title: 'App',
 			link: [
 				// The type is necessary because the linter can't always compare this very nested/complex type on itself
 				...preloadedFonts.map((font): object => {
@@ -50,7 +50,7 @@ export default defineNuxtConfig({
 					}
 				}),
 				...Object.entries(favicons).map(([media, href]): object => {
-					return { rel: 'icon', type: 'image/x-icon', href, media }
+					return { rel: 'icon', type: 'image/svg+xml', href, media }
 				}),
 				...Object.entries(favicons).map(([media, href]): object => {
 					return { rel: 'apple-touch-icon', type: 'image/x-icon', href, media, sizes: '64x64' }

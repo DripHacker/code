@@ -28,7 +28,7 @@ node_modules
 .idea/*
 !.idea/code.iml
 !.idea/gradle.xml
-!.idea/icon.svg
+
 !.idea/modules.xml
 !.idea/vcs.xml
 
@@ -85,5 +85,8 @@ apps/frontend/src/public/robots.txt
 
 # Local dry-run output for scripts/build-theseus-release-notes.mjs
 /test_result.md
+
+# Private fork planning (not for push)
+.fork-plan-c.md
 
 packages/tooling-config/script-utils/import-sort.js
