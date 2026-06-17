@@ -1,6 +1,6 @@
 # Fork
 
-Private fork of the upstream open-source monorepo. Modrinth branding assets have been removed per [COPYING.md](COPYING.md).
+Fork of the upstream open-source monorepo. Modrinth branding assets removed per [COPYING.md](COPYING.md).
 
 ## Development
 
